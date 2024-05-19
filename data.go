@@ -8,7 +8,7 @@ func (b *Board) initLists() {
 		newColumn(inProgress),
 		newColumn(done),
 	}
-	b.cols[todo].list.Title = "To Do"
+	b.cols[todo].list.Title = "Todo"
 	b.cols[todo].list.SetItems([]list.Item{
 		NewTask(todo, "write kanban board", "it's a demo, so don't worry"),
 		NewTask(todo, "write documentation", "it's a demo, so don't worry"),
